@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Battlefront:TO</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Press+Start+2P" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="header">
+				<h1>T-dot Brawl</h1>
+			<div class="headertext">
+				<h2> Space has run out and all heck has broken loose in Hogtown!</h2> 
+				<h2> Grab a weapon and join in the brawl to defend your turf. Generate a vicious battlecry and send those suburbanites packing!</h2>
+			</div>
+		<img src="images/7328-illustration-of-a-cloud-with-bolts-coming-out-of-it-pv.png">
+	</div>
+		<div class="wrapper">
+			<div class="results">
+				<div class="introduction"></div>
+				<div class="battlecry"></div>
+				<div class="enemies"></div>
+				<div class="again">
+					<button type="button" class="button2" alue="Refresh Page" onClick="location.href=location.href">Fight Again?!</button>
+				</div>	
+			</div>	
+		<form action="">
+			<div class="formwrapper">
+				<p>Choose Your Destiny!</p>
+				<div>
+					<label for="Name">Your Title:</label>
+					<input type="text" id="Name" value="" name="userName" placeholder="enter your name" required>
+				</div>
+				<div>
+					<label for="userHood">Pick Your Battlefield:</label>
+						<select id="userHood" name="userHood" >
+							<option selected="selected" value="" disabled="disabled">--- Select a Neighbourhood ---</option>
+					    	<option value="Etobicoke">Etobicoke</option>
+							<option value="Downtown">Downtown</option>
+							<option value="EastEnd">East End</option>
+							<option value="WestEnd">West End</option>
+							<option value="Midtown">Midtown</option>
+							<option value="NorthYork">North York</option>
+							<option value="Scarborough">Scarborough</option>
+						</select>
+				</div>
+				<div>
+  					<button type="submit" class="button1">Enter Brawl!</button>
+				</div>
+			</div>
+		</form>
+		</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="scripts.js"></script>
+</body>
+</html>
